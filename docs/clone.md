@@ -15,7 +15,7 @@ Ce guide démontre comment configurer et lancer un projet de documentation utili
 Clonez le dépôt sur votre machine :
 
 ```bash
-git clone https://github.com/13vlxx/mkdocs-md
+git clone https://github.com/13vlxx/mkdocs-md.git
 cd MkDocsGuide
 ```
 
