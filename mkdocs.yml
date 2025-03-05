@@ -1,0 +1,70 @@
+site_name: Markdown Guide
+repo_url: https://github.com/13vlxx/mkdocs-md
+repo_name: 13vlxx/mkdocs-md
+site_description: Un guide complet pour apprendre le Markdown
+site_author: Alexandru Rusescu
+site_url: https://13vlxx.github.io/mkdocs-md/
+nav:
+  - Accueil: index.md
+  - Guide Markdown: markdown-guide.md
+  - Clonez le projet: clone.md
+theme:
+  name: "material"
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: "#3b82f6"
+      accent: "#3b82f6"
+      toggle:
+        icon: material/weather-sunny
+        name: Basculer vers le mode sombre
+    # Mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: "#3b82f6"
+      accent: "#3b82f6"
+      toggle:
+        icon: material/weather-night
+        name: Basculer vers le mode clair
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/code-tags
+  language: fr
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/13vlxx
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/alexandru-rusescu-024706259/
