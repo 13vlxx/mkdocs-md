@@ -16,7 +16,7 @@ Clonez le dépôt sur votre machine :
 
 ```bash
 git clone https://github.com/13vlxx/mkdocs-md.git
-cd MkDocsGuide
+cd mkdocs-md
 ```
 
 ### 2. Créer et activer l'environnement virtuel
