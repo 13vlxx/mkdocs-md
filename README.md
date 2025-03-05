@@ -1,6 +1,6 @@
 # Guide de lancement de projet MkDocs
 
-Ce guide démontre comment configurer et lancer un projet de documentation utilisant MkDocs avec Python.
+Ce guide démontre comment configurer et lancer un projet de documentation utilisant MkDocs avec Python. [Voir la demo en ligne](https://13vlxx.github.io/mkdocs-md/ "Voir la démo")
 
 ## Prérequis
 
