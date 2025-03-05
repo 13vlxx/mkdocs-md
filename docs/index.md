@@ -23,6 +23,8 @@ Cette documentation vous propose un guide complet pour maîtriser Markdown :
 
 Pour commencer à utiliser Markdown, consultez notre [guide complet](markdown-guide.md) qui vous expliquera toutes les fonctionnalités disponibles avec de nombreux exemples.
 
+Pour clonner ce projet et lancer la documentation en local, consultez notre [guide d'installation](clone.md).
+
 ---
 
 ![Tag](https://img.shields.io/badge/-markdown-blue)
